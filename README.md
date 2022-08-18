@@ -50,13 +50,13 @@ Below follows instructions for getting started. Last year we got a mix of studen
 For those of you familiar with git, all you need to do is clone this repository. If you do not have git, it can be [freely downloaded](https://git-scm.com/downloads) and installed on all major platforms. Once you have it, you can clone this repository by executing:
 
 ```
-git clone git@github.com:wiedersehne/tdt4173-2022-task1.git
+git clone git@github.com:wiedersehne/TDT4173.git
 ```
 
 If that doesn't work, try to clone with HTTPS using the following command
 
 ```
-git clone https://github.com/wiedersehne/tdt4173-2022-task1.git
+git clone https://github.com/wiedersehne/TDT4173.git
 ```
 
 This shell command will clone the repository to your local computer. You will be able to find it in the folder you executed the command from. If you don't want to bother with git, just click the green `Code` button in the top right corner of the repository and select the `Download ZIP` option from the dropdown.
@@ -119,6 +119,8 @@ After you have installed all the dependencies, you can run a notebook server wit
 
 ```
 jupyter lab
+or
+jupyter notbook
 ```
 
 This will start a slightly fancier version of [jupyter notebook](https://jupyter.org). It is a single-page application that allows you to navigate, edit, and run python and jupyter notebook files from your browser. By default the server should be exposed at `localhost` port `8888`. If you're running this command from your laptop or desktop computer, it should automatically open in your default web browser. If for some reason not, try manually navigating to `localhost:8888` in your web browser (or copy the full URL from the logging output in the shell you ran the command). If it asks for a password or token, this can also be found in the shell output.
