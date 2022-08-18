@@ -1,4 +1,4 @@
-# tdt4173-2021-task-1
+# TDT4173-2022-task1
 
 This repository contains all resources for Homework 1 of TDT4173 fall 2021.
 
