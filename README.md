@@ -120,7 +120,7 @@ After you have installed all the dependencies, you can run a notebook server wit
 ```
 jupyter lab
 or
-jupyter notbook
+jupyter notebook
 ```
 
 This will start a slightly fancier version of [jupyter notebook](https://jupyter.org). It is a single-page application that allows you to navigate, edit, and run python and jupyter notebook files from your browser. By default the server should be exposed at `localhost` port `8888`. If you're running this command from your laptop or desktop computer, it should automatically open in your default web browser. If for some reason not, try manually navigating to `localhost:8888` in your web browser (or copy the full URL from the logging output in the shell you ran the command). If it asks for a password or token, this can also be found in the shell output.
